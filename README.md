@@ -9,10 +9,10 @@ This  project focused on speaker verification using a custom Bi-Directional LSTM
 # Project Overview
 
 ## Audio Processing
-* The first step involved preparing the raw audio data:
-** Loading Audio Files: Each recording from the dataset was loaded for processing. 
-** Performed Noise reduction, Normalization, applied pre-emphasis filter to each audio recording
-** Padding: Audio recordings were padded to the same length to ensure consistent input shapes for model training.
+* The first step involved preparing the raw audio data
+* Loading Audio Files: Each recording from the dataset was loaded for processing. 
+* Performed Noise reduction, Normalization, applied pre-emphasis filter to each audio recording
+* Padding: Audio recordings were padded to the same length to ensure consistent input shapes for model training.
 
 ## MFCC Feature Extraction
 * To transform the raw audio signals into meaningful features, Mel-Frequency Cepstral Coefficients (MFCC) were extracted:
@@ -32,9 +32,6 @@ This  project focused on speaker verification using a custom Bi-Directional LSTM
 
 ## Model Evaluation
 * The trained model was evaluated on a test set to assess its performance:
-** Test Accuracy: 0.8249
-** Precision: 0.8530
-** Recall: 0.8249
-** F1 Score: 0.8217
+* Test Accuracy: 0.8249, Precision: 0.8530, Recall: 0.8249, F1 Score: 0.8217
 * These results indicate that the model performed well in distinguishing speakers from the dataset with a strong balance between precision and recall.
 
