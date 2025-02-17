@@ -32,6 +32,9 @@ This  project focused on speaker verification using a custom Bi-Directional LSTM
 
 ## Model Evaluation
 * The trained model was evaluated on a test set to assess its performance:
-* Test Accuracy: 0.8249, Precision: 0.8530, Recall: 0.8249, F1 Score: 0.8217
+* Test Accuracy: 0.8249
+* Precision: 0.8530
+* Recall: 0.8249
+* F1 Score: 0.8217
 * These results indicate that the model performed well in distinguishing speakers from the dataset with a strong balance between precision and recall.
 
